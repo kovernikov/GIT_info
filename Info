@@ -1,0 +1,22 @@
+git clone (ссылка github) скачать репозиторий с сайтапри нахождении в папке
+
+git init
+git add -A
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kovernikov/social_networks.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/kovernikov/social_networks.git
+git branch -M main
+git push -u origin main
+
+git pull скачать файлы с репозитория
+
+gitk --all&     (открыть графическую оболочку гита, чтобы позырить все коммиты)
+ctrl + insert (копировать в буфер обмена) 
+shift + insert (вставить из буфера обмена)
+git checkout c89651ae4c41de.......номер комита из импута SHA1 ID (откат до нужного комита)
+git checkout src/App.js откатить изменения
+
+просак если прописать просто git commit запустить , то попадете в страшное окно из которого выбрать можно только Esc , прописать : wq Enter
