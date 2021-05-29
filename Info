@@ -1,7 +1,7 @@
 git clone (ссылка github) скачать репозиторий с сайтапри нахождении в папке
 
 git init
-git add -A
+git add *
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/kovernikov/social_networks.git
