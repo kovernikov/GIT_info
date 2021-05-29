@@ -20,3 +20,34 @@ git checkout c89651ae4c41de.......номер комита из импута SHA1
 git checkout src/App.js откатить изменения
 
 просак если прописать просто git commit запустить , то попадете в страшное окно из которого выбрать можно только Esc , прописать : wq Enter
+
+
+git branch 
+Работа с ветками в репозитории 
+ 
+git branch​  — показывает список веток 
+ 
+git branch branch-name​  — создает новую ветку branch-name 
+ 
+git branch -D branch-name​  — удаляет ветку branch-name 
+git checkout 
+Переключается на другую ветку 
+ 
+git checkout branch-name​  — переключается на последний коммит в ветке 
+branch-name 
+ 
+git checkout -b branch-name​  — создает и переключается на ветку branch-name 
+git merge 
+Совмещает текущую ветку с выбранной 
+ 
+git merge branch-name​  — совмещает текущую ветку с branch-name 
+git config 
+Конфигурация и параметры git 
+ 
+git config --global user.name​  — Показывает имя пользователя 
+ 
+git config --global user.name 'new user'​  — Изменяет имя пользователя 
+ 
+git config --global user.email​  — Показывает email пользователя 
+ 
+git config --global user.email 'test@mail.ru'​  — Изменяет email пользователя 
